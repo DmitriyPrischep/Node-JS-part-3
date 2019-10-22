@@ -1,5 +1,10 @@
 var express = require('express')
 var app = express()
+var foo = {}
+
+function sum(a, b) {
+	return a + b;
+}
 
 app.get('/', function (req, res) {
 
